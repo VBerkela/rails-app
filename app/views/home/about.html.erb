@@ -1,4 +1,4 @@
 <h2><%= @information %></h2>
-<%# @parsed_response.each do |country| %>
-<!--  <p><%#= country['name'] + ' - ' + country['capital']%></p>-->
-<%# end %>
+<% @parsed_response.each do |country| %>
+  <p><%= country['name'] + ' - ' + country['capital']%></p>
+<% end %>
